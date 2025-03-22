@@ -11,7 +11,7 @@ serviceAccount:
 backend:
   replicaCount: 1
   image:
-    repository: leonardojp1/foodadvisor-api
+    repository: arthurrds/foodadvisor-api
     pullPolicy: IfNotPresent
     tag: ""
   imagePullSecrets: []
@@ -64,7 +64,7 @@ backend:
 frontend:
   replicaCount: 1
   image:
-    repository: leonardojp1/foodadvisor-client
+    repository: arthurrds/foodadvisor-client
     pullPolicy: IfNotPresent
     tag: ""
   imagePullSecrets: []
